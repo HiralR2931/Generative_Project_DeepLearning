@@ -4,7 +4,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 
 # Folders
-DATA_DIR = ROOT / "data"
+DATA_DIR = ROOT / "Data"
 RAW_DIR = DATA_DIR / "raw"
 PROC_DIR = DATA_DIR / "processed"
 OUT_DIR = ROOT / "outputs"

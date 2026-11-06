@@ -20,8 +20,10 @@ random noise ──► U-Net denoising (N steps, guidance w) ◄──┘
 ```
 Generative_Project_DeepLearning/
 ├── notebooks/
-│   ├── 01_data_and_embeddings.ipynb   # download, clean, preprocess, CLIP embeddings
-│   └── 02_baseline_samples.ipynb      # 5 prompt→image test runs + guidance preview
+│   ├── 01_data_and_embeddings.ipynb     # download, clean, preprocess, CLIP embeddings
+│   ├── 02_baseline_samples.ipynb        # 5 prompt→image test runs + guidance preview
+│   └── extra/
+│       └── COCO_2017_Milestone_1.ipynb  # Colab (T4) run with 5 handwritten prompts
 ├── src/
 │   ├── config.py        # all paths, model IDs and default settings
 │   ├── data.py          # caption cleaning, pairing, image resize/crop
@@ -30,7 +32,9 @@ Generative_Project_DeepLearning/
 ├── scripts/
 │   └── download_coco.sh # COCO val2017 images + captions
 ├── outputs/samples/     # generated images + JSON logs (committed)
-├── data/                # downloaded + processed data (git-ignored)
+│   └── teammate_run/    # handwritten-prompt images (seeds 2027–2031) + test_runs.csv
+├── milestone1/          # exported 5k caption pairs (CSV/JSONL) + 5 sample CLIP embeddings
+├── Data/                # downloaded + processed data (git-ignored)
 └── requirements.txt
 ```
 
@@ -54,10 +58,11 @@ jupyter lab
 
 | Step | Notebook | Output |
 |---|---|---|
-| 1. Data + embeddings | `01_data_and_embeddings.ipynb` | `data/processed/pairs_*.json`, `images_512/`, `clip_text_*.pt` |
+| 1. Data + embeddings | `01_data_and_embeddings.ipynb` | `Data/processed/pairs_*.json`, `images_512/`, `clip_text_*.pt` |
 | 2. Baseline samples | `02_baseline_samples.ipynb` | `outputs/samples/baseline_*.png`, `baseline_log.json`, `guidance_preview.png` |
+| Extra: handwritten prompts | `extra/COCO_2017_Milestone_1.ipynb` | `outputs/samples/teammate_run/prompt_*.png`, `test_runs.csv` |
 
-Run them in order; notebook 02 reads the embeddings cached by notebook 01. All randomness uses `SEED = 42` (see `src/config.py`).
+Run steps 1 and 2 in order; notebook 02 reads the embeddings cached by notebook 01. All randomness uses `SEED = 42` (see `src/config.py`). The extra notebook is self-contained and uses seeds 2027–2031.
 
 ## Data processing
 
