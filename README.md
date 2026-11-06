@@ -72,14 +72,6 @@ Run them in order; notebook 02 reads the embeddings cached by notebook 01. All r
 - [ ] **M3 — Evaluation (week 5):** FID, IS, CLIP score, sensitivity plots
 - [ ] **M4 — Final (by Dec 13):** report, gallery, slides, demo
 
-## Team
-
-| Member | Role |
-|---|---|
-| [Name] | Data lead |
-| [Name] | Model lead |
-| [Name] | Evaluation lead |
-| [Name] | Report & repo lead |
 
 ## Data and model licenses
 
