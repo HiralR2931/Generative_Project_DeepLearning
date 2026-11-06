@@ -50,7 +50,8 @@ class ClipEncoder:
         feats = []
         for i in range(0, len(images), batch_size):
             px = self.processor(images=images[i : i + batch_size], return_tensors="pt").pixel_values
-            f = self.model.get_image_features(pixel_values=px.to(self.device))
+            vision_out = self.model.vision_model(pixel_values=px.to(self.device))
+            f = self.model.visual_projection(vision_out.pooler_output)
             feats.append(F.normalize(f, dim=-1).float().cpu())
         return torch.cat(feats)
 
