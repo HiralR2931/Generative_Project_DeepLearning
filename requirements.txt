@@ -1,0 +1,18 @@
+# Core
+torch>=2.1
+torchvision>=0.16
+diffusers>=0.30
+transformers>=4.44
+accelerate>=0.33
+safetensors
+
+# Data + plotting
+numpy
+pandas
+pillow
+matplotlib
+tqdm
+
+# Evaluation (used from Milestone 3)
+torchmetrics[image]>=1.4
+torch-fidelity
