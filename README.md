@@ -18,7 +18,7 @@ random noise ──► U-Net denoising (N steps, guidance w) ◄──┘
 ## Repository structure
 
 ```
-words-to-worlds/
+Generative_Project_DeepLearning/
 ├── notebooks/
 │   ├── 01_data_and_embeddings.ipynb   # download, clean, preprocess, CLIP embeddings
 │   └── 02_baseline_samples.ipynb      # 5 prompt→image test runs + guidance preview
@@ -42,8 +42,8 @@ words-to-worlds/
 
 **Local (NVIDIA GPU, ~8 GB VRAM)**
 ```bash
-git clone https://github.com/YOUR_USERNAME/words-to-worlds.git
-cd words-to-worlds
+git clone https://github.com/HiralR2931/Generative_Project_DeepLearning.git
+cd Generative_Project_DeepLearning
 python -m venv .venv && source .venv/bin/activate
 pip install -r requirements.txt
 bash scripts/download_coco.sh
@@ -72,14 +72,6 @@ Run them in order; notebook 02 reads the embeddings cached by notebook 01. All r
 - [ ] **M3 — Evaluation (week 5):** FID, IS, CLIP score, sensitivity plots
 - [ ] **M4 — Final (by Dec 13):** report, gallery, slides, demo
 
-## Team
-
-| Member | Role |
-|---|---|
-| [Name] | Data lead |
-| [Name] | Model lead |
-| [Name] | Evaluation lead |
-| [Name] | Report & repo lead |
 
 ## Data and model licenses
 
