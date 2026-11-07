@@ -1,0 +1,77 @@
+[
+  {
+    "file": "handwritten_00.png",
+    "prompt": "A brown dog running through a grassy field in sunlight.",
+    "model": "stable-diffusion-v1-5/stable-diffusion-v1-5",
+    "scheduler": "dpm++",
+    "guidance_scale": 7.5,
+    "num_steps": 30,
+    "seeds": [
+      2027,
+      2028,
+      2029,
+      2030,
+      2031
+    ]
+  },
+  {
+    "file": "handwritten_01.png",
+    "prompt": "Two people riding bicycles along a city street.",
+    "model": "stable-diffusion-v1-5/stable-diffusion-v1-5",
+    "scheduler": "dpm++",
+    "guidance_scale": 7.5,
+    "num_steps": 30,
+    "seeds": [
+      2027,
+      2028,
+      2029,
+      2030,
+      2031
+    ]
+  },
+  {
+    "file": "handwritten_02.png",
+    "prompt": "A red bus traveling down a road on a cloudy day.",
+    "model": "stable-diffusion-v1-5/stable-diffusion-v1-5",
+    "scheduler": "dpm++",
+    "guidance_scale": 7.5,
+    "num_steps": 30,
+    "seeds": [
+      2027,
+      2028,
+      2029,
+      2030,
+      2031
+    ]
+  },
+  {
+    "file": "handwritten_03.png",
+    "prompt": "A plate of fresh fruit on a wooden kitchen table.",
+    "model": "stable-diffusion-v1-5/stable-diffusion-v1-5",
+    "scheduler": "dpm++",
+    "guidance_scale": 7.5,
+    "num_steps": 30,
+    "seeds": [
+      2027,
+      2028,
+      2029,
+      2030,
+      2031
+    ]
+  },
+  {
+    "file": "handwritten_04.png",
+    "prompt": "A small boat floating on a calm lake near mountains.",
+    "model": "stable-diffusion-v1-5/stable-diffusion-v1-5",
+    "scheduler": "dpm++",
+    "guidance_scale": 7.5,
+    "num_steps": 30,
+    "seeds": [
+      2027,
+      2028,
+      2029,
+      2030,
+      2031
+    ]
+  }
+]

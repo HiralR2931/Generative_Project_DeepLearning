@@ -28,3 +28,14 @@ GUIDANCE_SCALE = 7.5
 NUM_STEPS = 30
 SCHEDULER = "dpm++"       # one of: ddpm, ddim, dpm++, pndm
 SEED = 42
+
+
+# Handwritten test prompts (second test set, compared against COCO captions)
+HANDWRITTEN_PROMPTS = [
+    "A brown dog running through a grassy field in sunlight.",
+    "Two people riding bicycles along a city street.",
+    "A red bus traveling down a road on a cloudy day.",
+    "A plate of fresh fruit on a wooden kitchen table.",
+    "A small boat floating on a calm lake near mountains.",
+]
+HANDWRITTEN_SEEDS = [2027, 2028, 2029, 2030, 2031]

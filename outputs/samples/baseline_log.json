@@ -1,0 +1,57 @@
+[
+  {
+    "file": "baseline_00.png",
+    "prompt": "Looks like the ingredients for a recipe including bananas",
+    "model": "stable-diffusion-v1-5/stable-diffusion-v1-5",
+    "scheduler": "dpm++",
+    "guidance_scale": 7.5,
+    "num_steps": 30,
+    "seed": 42,
+    "size": 512,
+    "conditioning": "cached CLIP ViT-L/14 hidden states"
+  },
+  {
+    "file": "baseline_01.png",
+    "prompt": "The man is holding an object in his hand",
+    "model": "stable-diffusion-v1-5/stable-diffusion-v1-5",
+    "scheduler": "dpm++",
+    "guidance_scale": 7.5,
+    "num_steps": 30,
+    "seed": 42,
+    "size": 512,
+    "conditioning": "cached CLIP ViT-L/14 hidden states"
+  },
+  {
+    "file": "baseline_02.png",
+    "prompt": "A glass vase with some flowers inside of it",
+    "model": "stable-diffusion-v1-5/stable-diffusion-v1-5",
+    "scheduler": "dpm++",
+    "guidance_scale": 7.5,
+    "num_steps": 30,
+    "seed": 42,
+    "size": 512,
+    "conditioning": "cached CLIP ViT-L/14 hidden states"
+  },
+  {
+    "file": "baseline_03.png",
+    "prompt": "Person on tennis court preparing to return a volley",
+    "model": "stable-diffusion-v1-5/stable-diffusion-v1-5",
+    "scheduler": "dpm++",
+    "guidance_scale": 7.5,
+    "num_steps": 30,
+    "seed": 42,
+    "size": 512,
+    "conditioning": "cached CLIP ViT-L/14 hidden states"
+  },
+  {
+    "file": "baseline_04.png",
+    "prompt": "A man standing next to a horse in the woods",
+    "model": "stable-diffusion-v1-5/stable-diffusion-v1-5",
+    "scheduler": "dpm++",
+    "guidance_scale": 7.5,
+    "num_steps": 30,
+    "seed": 42,
+    "size": 512,
+    "conditioning": "cached CLIP ViT-L/14 hidden states"
+  }
+]

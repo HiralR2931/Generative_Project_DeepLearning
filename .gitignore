@@ -10,7 +10,8 @@ Data/
 *.hdf5
 
 # Outputs / generated images
-outputs/
+outputs/*
+!outputs/samples/
 
 # Python
 __pycache__/

@@ -100,3 +100,16 @@ def to_model_tensor(img: Image.Image):
 
     arr = np.asarray(img, dtype=np.float32) / 127.5 - 1.0
     return torch.from_numpy(arr).permute(2, 0, 1)
+
+
+
+def verify_images(pairs, image_dir):
+    """Return file names that are missing or corrupt (checked with PIL verify)."""
+    bad = []
+    for fn in pairs["file_name"]:
+        try:
+            with Image.open(Path(image_dir) / fn) as im:
+                im.verify()
+        except Exception:
+            bad.append(fn)
+    return bad
