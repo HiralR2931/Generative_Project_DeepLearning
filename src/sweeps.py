@@ -25,8 +25,8 @@ from .generate import SCHEDULERS, generate
 def m2_prompts(samples_dir=None) -> pd.DataFrame:
     """10 fixed prompts: the 5 COCO captions from the M1 baseline + the 5 handwritten prompts.
 
-    COCO prompts use seeds 42-46; handwritten prompts keep their M1 seeds (2027-2031),
-    so the M2 baseline reproduces the M1 handwritten images exactly.
+    COCO prompts use seeds 42-46; handwritten prompts keep their M1 seeds (2027-2031).
+    Images match M1 only on the same device: CPU and CUDA generators draw different noise.
     """
     samples_dir = Path(samples_dir or C.SAMPLES_DIR)
     with open(samples_dir / "baseline_log.json") as f:
@@ -191,7 +191,8 @@ def make_grid(log_df: pd.DataFrame, out_dir, experiment: str, prompt_ids=None, t
                 ax.set_xlabel(f"CLIP {row.clip_score:.1f}", fontsize=8)
     if title:
         fig.suptitle(title, fontsize=13)
-    fig.tight_layout()
+    # keep ~0.6 inch free at the top so the title never overlaps the column labels
+    fig.tight_layout(rect=(0, 0, 1, 1 - 0.6 / fig.get_figheight()) if title else None)
     if save_as:
         fig.savefig(save_as, dpi=110, bbox_inches="tight")
     return fig
