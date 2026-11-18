@@ -12,6 +12,7 @@ Data/
 # Outputs / generated images
 outputs/*
 !outputs/samples/
+!outputs/milestone2/
 
 # Python
 __pycache__/

@@ -1,0 +1,20 @@
+{
+  "date": "2026-11-18 17:37",
+  "gpu": "Tesla T4",
+  "dtype": "torch.float16",
+  "python": "3.13.16",
+  "torch": "2.14.1+cu130",
+  "diffusers": "0.42.1",
+  "transformers": "5.22.1",
+  "model": "stable-diffusion-v1-5/stable-diffusion-v1-5",
+  "text_encoder": "openai/clip-vit-large-patch14",
+  "safety_checker": "on",
+  "baseline": {
+    "scheduler": "dpm++",
+    "guidance_scale": 7.5,
+    "num_steps": 30
+  },
+  "default_timestep_spacing": "linspace",
+  "prompts": 10,
+  "size": 512
+}
