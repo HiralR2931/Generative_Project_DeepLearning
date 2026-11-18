@@ -1,0 +1,191 @@
+experiment,setting,prompt_id,prompt_type,prompt,seed,scheduler,timestep_spacing,guidance_scale,num_steps,seconds,reused,blank,file,clip_score
+baseline,baseline,coco_0,coco,Looks like the ingredients for a recipe including bananas,42,dpm++,linspace,7.5,30,4.43,False,False,images/dpm++_linspace_w7.5_n30__coco_0.jpg,27.67
+baseline,baseline,coco_1,coco,The man is holding an object in his hand,43,dpm++,linspace,7.5,30,4.47,False,False,images/dpm++_linspace_w7.5_n30__coco_1.jpg,20.24
+baseline,baseline,coco_2,coco,A glass vase with some flowers inside of it,44,dpm++,linspace,7.5,30,4.48,False,False,images/dpm++_linspace_w7.5_n30__coco_2.jpg,23.79
+baseline,baseline,coco_3,coco,Person on tennis court preparing to return a volley,45,dpm++,linspace,7.5,30,4.51,False,False,images/dpm++_linspace_w7.5_n30__coco_3.jpg,27.0
+baseline,baseline,coco_4,coco,A man standing next to a horse in the woods,46,dpm++,linspace,7.5,30,4.55,False,False,images/dpm++_linspace_w7.5_n30__coco_4.jpg,29.69
+baseline,baseline,hw_0,handwritten,A brown dog running through a grassy field in sunlight.,2027,dpm++,linspace,7.5,30,4.58,False,False,images/dpm++_linspace_w7.5_n30__hw_0.jpg,26.25
+baseline,baseline,hw_1,handwritten,Two people riding bicycles along a city street.,2028,dpm++,linspace,7.5,30,4.61,False,False,images/dpm++_linspace_w7.5_n30__hw_1.jpg,26.93
+baseline,baseline,hw_2,handwritten,A red bus traveling down a road on a cloudy day.,2029,dpm++,linspace,7.5,30,4.65,False,False,images/dpm++_linspace_w7.5_n30__hw_2.jpg,28.31
+baseline,baseline,hw_3,handwritten,A plate of fresh fruit on a wooden kitchen table.,2030,dpm++,linspace,7.5,30,4.68,False,False,images/dpm++_linspace_w7.5_n30__hw_3.jpg,26.18
+baseline,baseline,hw_4,handwritten,A small boat floating on a calm lake near mountains.,2031,dpm++,linspace,7.5,30,4.7,False,False,images/dpm++_linspace_w7.5_n30__hw_4.jpg,27.31
+guidance,w = 1,coco_0,coco,Looks like the ingredients for a recipe including bananas,42,dpm++,linspace,1.0,30,3.03,False,False,images/dpm++_linspace_w1_n30__coco_0.jpg,18.83
+guidance,w = 1,coco_1,coco,The man is holding an object in his hand,43,dpm++,linspace,1.0,30,3.02,False,False,images/dpm++_linspace_w1_n30__coco_1.jpg,15.75
+guidance,w = 1,coco_2,coco,A glass vase with some flowers inside of it,44,dpm++,linspace,1.0,30,3.02,False,False,images/dpm++_linspace_w1_n30__coco_2.jpg,24.82
+guidance,w = 1,coco_3,coco,Person on tennis court preparing to return a volley,45,dpm++,linspace,1.0,30,3.03,False,False,images/dpm++_linspace_w1_n30__coco_3.jpg,26.08
+guidance,w = 1,coco_4,coco,A man standing next to a horse in the woods,46,dpm++,linspace,1.0,30,3.04,False,False,images/dpm++_linspace_w1_n30__coco_4.jpg,28.5
+guidance,w = 1,hw_0,handwritten,A brown dog running through a grassy field in sunlight.,2027,dpm++,linspace,1.0,30,3.11,False,False,images/dpm++_linspace_w1_n30__hw_0.jpg,23.38
+guidance,w = 1,hw_1,handwritten,Two people riding bicycles along a city street.,2028,dpm++,linspace,1.0,30,3.06,False,False,images/dpm++_linspace_w1_n30__hw_1.jpg,22.06
+guidance,w = 1,hw_2,handwritten,A red bus traveling down a road on a cloudy day.,2029,dpm++,linspace,1.0,30,3.06,False,False,images/dpm++_linspace_w1_n30__hw_2.jpg,24.57
+guidance,w = 1,hw_3,handwritten,A plate of fresh fruit on a wooden kitchen table.,2030,dpm++,linspace,1.0,30,3.06,False,False,images/dpm++_linspace_w1_n30__hw_3.jpg,26.75
+guidance,w = 1,hw_4,handwritten,A small boat floating on a calm lake near mountains.,2031,dpm++,linspace,1.0,30,3.05,False,False,images/dpm++_linspace_w1_n30__hw_4.jpg,24.32
+guidance,w = 3,coco_0,coco,Looks like the ingredients for a recipe including bananas,42,dpm++,linspace,3.0,30,4.78,False,False,images/dpm++_linspace_w3_n30__coco_0.jpg,28.39
+guidance,w = 3,coco_1,coco,The man is holding an object in his hand,43,dpm++,linspace,3.0,30,4.74,False,False,images/dpm++_linspace_w3_n30__coco_1.jpg,18.62
+guidance,w = 3,coco_2,coco,A glass vase with some flowers inside of it,44,dpm++,linspace,3.0,30,4.74,False,False,images/dpm++_linspace_w3_n30__coco_2.jpg,24.1
+guidance,w = 3,coco_3,coco,Person on tennis court preparing to return a volley,45,dpm++,linspace,3.0,30,4.72,False,False,images/dpm++_linspace_w3_n30__coco_3.jpg,23.99
+guidance,w = 3,coco_4,coco,A man standing next to a horse in the woods,46,dpm++,linspace,3.0,30,4.69,False,False,images/dpm++_linspace_w3_n30__coco_4.jpg,28.59
+guidance,w = 3,hw_0,handwritten,A brown dog running through a grassy field in sunlight.,2027,dpm++,linspace,3.0,30,4.69,False,False,images/dpm++_linspace_w3_n30__hw_0.jpg,24.82
+guidance,w = 3,hw_1,handwritten,Two people riding bicycles along a city street.,2028,dpm++,linspace,3.0,30,4.69,False,False,images/dpm++_linspace_w3_n30__hw_1.jpg,26.31
+guidance,w = 3,hw_2,handwritten,A red bus traveling down a road on a cloudy day.,2029,dpm++,linspace,3.0,30,4.7,False,False,images/dpm++_linspace_w3_n30__hw_2.jpg,28.0
+guidance,w = 3,hw_3,handwritten,A plate of fresh fruit on a wooden kitchen table.,2030,dpm++,linspace,3.0,30,4.7,False,False,images/dpm++_linspace_w3_n30__hw_3.jpg,25.0
+guidance,w = 3,hw_4,handwritten,A small boat floating on a calm lake near mountains.,2031,dpm++,linspace,3.0,30,4.7,False,False,images/dpm++_linspace_w3_n30__hw_4.jpg,27.11
+guidance,w = 5,coco_0,coco,Looks like the ingredients for a recipe including bananas,42,dpm++,linspace,5.0,30,4.72,False,False,images/dpm++_linspace_w5_n30__coco_0.jpg,27.02
+guidance,w = 5,coco_1,coco,The man is holding an object in his hand,43,dpm++,linspace,5.0,30,4.73,False,False,images/dpm++_linspace_w5_n30__coco_1.jpg,18.79
+guidance,w = 5,coco_2,coco,A glass vase with some flowers inside of it,44,dpm++,linspace,5.0,30,4.75,False,False,images/dpm++_linspace_w5_n30__coco_2.jpg,23.05
+guidance,w = 5,coco_3,coco,Person on tennis court preparing to return a volley,45,dpm++,linspace,5.0,30,4.75,False,False,images/dpm++_linspace_w5_n30__coco_3.jpg,25.38
+guidance,w = 5,coco_4,coco,A man standing next to a horse in the woods,46,dpm++,linspace,5.0,30,4.75,False,False,images/dpm++_linspace_w5_n30__coco_4.jpg,29.58
+guidance,w = 5,hw_0,handwritten,A brown dog running through a grassy field in sunlight.,2027,dpm++,linspace,5.0,30,4.75,False,False,images/dpm++_linspace_w5_n30__hw_0.jpg,25.92
+guidance,w = 5,hw_1,handwritten,Two people riding bicycles along a city street.,2028,dpm++,linspace,5.0,30,4.74,False,False,images/dpm++_linspace_w5_n30__hw_1.jpg,25.71
+guidance,w = 5,hw_2,handwritten,A red bus traveling down a road on a cloudy day.,2029,dpm++,linspace,5.0,30,4.74,False,False,images/dpm++_linspace_w5_n30__hw_2.jpg,28.16
+guidance,w = 5,hw_3,handwritten,A plate of fresh fruit on a wooden kitchen table.,2030,dpm++,linspace,5.0,30,4.76,False,False,images/dpm++_linspace_w5_n30__hw_3.jpg,25.24
+guidance,w = 5,hw_4,handwritten,A small boat floating on a calm lake near mountains.,2031,dpm++,linspace,5.0,30,4.74,False,False,images/dpm++_linspace_w5_n30__hw_4.jpg,26.87
+guidance,w = 7.5,coco_0,coco,Looks like the ingredients for a recipe including bananas,42,dpm++,linspace,7.5,30,4.43,True,False,images/dpm++_linspace_w7.5_n30__coco_0.jpg,27.67
+guidance,w = 7.5,coco_1,coco,The man is holding an object in his hand,43,dpm++,linspace,7.5,30,4.47,True,False,images/dpm++_linspace_w7.5_n30__coco_1.jpg,20.24
+guidance,w = 7.5,coco_2,coco,A glass vase with some flowers inside of it,44,dpm++,linspace,7.5,30,4.48,True,False,images/dpm++_linspace_w7.5_n30__coco_2.jpg,23.79
+guidance,w = 7.5,coco_3,coco,Person on tennis court preparing to return a volley,45,dpm++,linspace,7.5,30,4.51,True,False,images/dpm++_linspace_w7.5_n30__coco_3.jpg,27.0
+guidance,w = 7.5,coco_4,coco,A man standing next to a horse in the woods,46,dpm++,linspace,7.5,30,4.55,True,False,images/dpm++_linspace_w7.5_n30__coco_4.jpg,29.69
+guidance,w = 7.5,hw_0,handwritten,A brown dog running through a grassy field in sunlight.,2027,dpm++,linspace,7.5,30,4.58,True,False,images/dpm++_linspace_w7.5_n30__hw_0.jpg,26.25
+guidance,w = 7.5,hw_1,handwritten,Two people riding bicycles along a city street.,2028,dpm++,linspace,7.5,30,4.61,True,False,images/dpm++_linspace_w7.5_n30__hw_1.jpg,26.93
+guidance,w = 7.5,hw_2,handwritten,A red bus traveling down a road on a cloudy day.,2029,dpm++,linspace,7.5,30,4.65,True,False,images/dpm++_linspace_w7.5_n30__hw_2.jpg,28.31
+guidance,w = 7.5,hw_3,handwritten,A plate of fresh fruit on a wooden kitchen table.,2030,dpm++,linspace,7.5,30,4.68,True,False,images/dpm++_linspace_w7.5_n30__hw_3.jpg,26.18
+guidance,w = 7.5,hw_4,handwritten,A small boat floating on a calm lake near mountains.,2031,dpm++,linspace,7.5,30,4.7,True,False,images/dpm++_linspace_w7.5_n30__hw_4.jpg,27.31
+guidance,w = 10,coco_0,coco,Looks like the ingredients for a recipe including bananas,42,dpm++,linspace,10.0,30,4.72,False,False,images/dpm++_linspace_w10_n30__coco_0.jpg,27.44
+guidance,w = 10,coco_1,coco,The man is holding an object in his hand,43,dpm++,linspace,10.0,30,4.73,False,False,images/dpm++_linspace_w10_n30__coco_1.jpg,19.1
+guidance,w = 10,coco_2,coco,A glass vase with some flowers inside of it,44,dpm++,linspace,10.0,30,4.73,False,False,images/dpm++_linspace_w10_n30__coco_2.jpg,23.71
+guidance,w = 10,coco_3,coco,Person on tennis court preparing to return a volley,45,dpm++,linspace,10.0,30,4.72,False,False,images/dpm++_linspace_w10_n30__coco_3.jpg,25.88
+guidance,w = 10,coco_4,coco,A man standing next to a horse in the woods,46,dpm++,linspace,10.0,30,4.71,False,False,images/dpm++_linspace_w10_n30__coco_4.jpg,28.88
+guidance,w = 10,hw_0,handwritten,A brown dog running through a grassy field in sunlight.,2027,dpm++,linspace,10.0,30,4.72,False,False,images/dpm++_linspace_w10_n30__hw_0.jpg,25.99
+guidance,w = 10,hw_1,handwritten,Two people riding bicycles along a city street.,2028,dpm++,linspace,10.0,30,4.71,False,False,images/dpm++_linspace_w10_n30__hw_1.jpg,27.25
+guidance,w = 10,hw_2,handwritten,A red bus traveling down a road on a cloudy day.,2029,dpm++,linspace,10.0,30,4.71,False,False,images/dpm++_linspace_w10_n30__hw_2.jpg,28.95
+guidance,w = 10,hw_3,handwritten,A plate of fresh fruit on a wooden kitchen table.,2030,dpm++,linspace,10.0,30,4.72,False,False,images/dpm++_linspace_w10_n30__hw_3.jpg,25.45
+guidance,w = 10,hw_4,handwritten,A small boat floating on a calm lake near mountains.,2031,dpm++,linspace,10.0,30,4.73,False,False,images/dpm++_linspace_w10_n30__hw_4.jpg,27.85
+guidance,w = 15,coco_0,coco,Looks like the ingredients for a recipe including bananas,42,dpm++,linspace,15.0,30,4.71,False,False,images/dpm++_linspace_w15_n30__coco_0.jpg,27.14
+guidance,w = 15,coco_1,coco,The man is holding an object in his hand,43,dpm++,linspace,15.0,30,4.72,False,False,images/dpm++_linspace_w15_n30__coco_1.jpg,20.0
+guidance,w = 15,coco_2,coco,A glass vase with some flowers inside of it,44,dpm++,linspace,15.0,30,4.72,False,False,images/dpm++_linspace_w15_n30__coco_2.jpg,23.9
+guidance,w = 15,coco_3,coco,Person on tennis court preparing to return a volley,45,dpm++,linspace,15.0,30,4.72,False,False,images/dpm++_linspace_w15_n30__coco_3.jpg,24.28
+guidance,w = 15,coco_4,coco,A man standing next to a horse in the woods,46,dpm++,linspace,15.0,30,4.72,False,False,images/dpm++_linspace_w15_n30__coco_4.jpg,25.54
+guidance,w = 15,hw_0,handwritten,A brown dog running through a grassy field in sunlight.,2027,dpm++,linspace,15.0,30,4.73,False,False,images/dpm++_linspace_w15_n30__hw_0.jpg,28.38
+guidance,w = 15,hw_1,handwritten,Two people riding bicycles along a city street.,2028,dpm++,linspace,15.0,30,4.72,False,False,images/dpm++_linspace_w15_n30__hw_1.jpg,28.2
+guidance,w = 15,hw_2,handwritten,A red bus traveling down a road on a cloudy day.,2029,dpm++,linspace,15.0,30,4.71,False,False,images/dpm++_linspace_w15_n30__hw_2.jpg,30.25
+guidance,w = 15,hw_3,handwritten,A plate of fresh fruit on a wooden kitchen table.,2030,dpm++,linspace,15.0,30,4.73,False,False,images/dpm++_linspace_w15_n30__hw_3.jpg,26.05
+guidance,w = 15,hw_4,handwritten,A small boat floating on a calm lake near mountains.,2031,dpm++,linspace,15.0,30,4.71,False,False,images/dpm++_linspace_w15_n30__hw_4.jpg,26.46
+guidance,w = 20,coco_0,coco,Looks like the ingredients for a recipe including bananas,42,dpm++,linspace,20.0,30,4.73,False,False,images/dpm++_linspace_w20_n30__coco_0.jpg,25.41
+guidance,w = 20,coco_1,coco,The man is holding an object in his hand,43,dpm++,linspace,20.0,30,4.72,False,False,images/dpm++_linspace_w20_n30__coco_1.jpg,19.51
+guidance,w = 20,coco_2,coco,A glass vase with some flowers inside of it,44,dpm++,linspace,20.0,30,4.71,False,False,images/dpm++_linspace_w20_n30__coco_2.jpg,26.14
+guidance,w = 20,coco_3,coco,Person on tennis court preparing to return a volley,45,dpm++,linspace,20.0,30,4.73,False,False,images/dpm++_linspace_w20_n30__coco_3.jpg,25.1
+guidance,w = 20,coco_4,coco,A man standing next to a horse in the woods,46,dpm++,linspace,20.0,30,4.72,False,False,images/dpm++_linspace_w20_n30__coco_4.jpg,25.57
+guidance,w = 20,hw_0,handwritten,A brown dog running through a grassy field in sunlight.,2027,dpm++,linspace,20.0,30,4.71,False,False,images/dpm++_linspace_w20_n30__hw_0.jpg,30.02
+guidance,w = 20,hw_1,handwritten,Two people riding bicycles along a city street.,2028,dpm++,linspace,20.0,30,4.72,False,False,images/dpm++_linspace_w20_n30__hw_1.jpg,27.98
+guidance,w = 20,hw_2,handwritten,A red bus traveling down a road on a cloudy day.,2029,dpm++,linspace,20.0,30,4.73,False,False,images/dpm++_linspace_w20_n30__hw_2.jpg,30.78
+guidance,w = 20,hw_3,handwritten,A plate of fresh fruit on a wooden kitchen table.,2030,dpm++,linspace,20.0,30,4.72,False,False,images/dpm++_linspace_w20_n30__hw_3.jpg,25.91
+guidance,w = 20,hw_4,handwritten,A small boat floating on a calm lake near mountains.,2031,dpm++,linspace,20.0,30,4.71,False,False,images/dpm++_linspace_w20_n30__hw_4.jpg,28.7
+sampler,DDPM,coco_0,coco,Looks like the ingredients for a recipe including bananas,42,ddpm,linspace,7.5,30,4.78,False,False,images/ddpm_linspace_w7.5_n30__coco_0.jpg,25.61
+sampler,DDPM,coco_1,coco,The man is holding an object in his hand,43,ddpm,linspace,7.5,30,4.79,False,False,images/ddpm_linspace_w7.5_n30__coco_1.jpg,20.11
+sampler,DDPM,coco_2,coco,A glass vase with some flowers inside of it,44,ddpm,linspace,7.5,30,4.8,False,False,images/ddpm_linspace_w7.5_n30__coco_2.jpg,24.89
+sampler,DDPM,coco_3,coco,Person on tennis court preparing to return a volley,45,ddpm,linspace,7.5,30,4.77,False,False,images/ddpm_linspace_w7.5_n30__coco_3.jpg,24.96
+sampler,DDPM,coco_4,coco,A man standing next to a horse in the woods,46,ddpm,linspace,7.5,30,4.78,False,False,images/ddpm_linspace_w7.5_n30__coco_4.jpg,28.57
+sampler,DDPM,hw_0,handwritten,A brown dog running through a grassy field in sunlight.,2027,ddpm,linspace,7.5,30,4.78,False,False,images/ddpm_linspace_w7.5_n30__hw_0.jpg,26.6
+sampler,DDPM,hw_1,handwritten,Two people riding bicycles along a city street.,2028,ddpm,linspace,7.5,30,4.77,False,False,images/ddpm_linspace_w7.5_n30__hw_1.jpg,25.12
+sampler,DDPM,hw_2,handwritten,A red bus traveling down a road on a cloudy day.,2029,ddpm,linspace,7.5,30,4.77,False,False,images/ddpm_linspace_w7.5_n30__hw_2.jpg,30.02
+sampler,DDPM,hw_3,handwritten,A plate of fresh fruit on a wooden kitchen table.,2030,ddpm,linspace,7.5,30,4.79,False,False,images/ddpm_linspace_w7.5_n30__hw_3.jpg,24.1
+sampler,DDPM,hw_4,handwritten,A small boat floating on a calm lake near mountains.,2031,ddpm,linspace,7.5,30,4.75,False,False,images/ddpm_linspace_w7.5_n30__hw_4.jpg,27.58
+sampler,DDIM,coco_0,coco,Looks like the ingredients for a recipe including bananas,42,ddim,linspace,7.5,30,4.77,False,False,images/ddim_linspace_w7.5_n30__coco_0.jpg,26.99
+sampler,DDIM,coco_1,coco,The man is holding an object in his hand,43,ddim,linspace,7.5,30,4.76,False,False,images/ddim_linspace_w7.5_n30__coco_1.jpg,20.18
+sampler,DDIM,coco_2,coco,A glass vase with some flowers inside of it,44,ddim,linspace,7.5,30,4.77,False,False,images/ddim_linspace_w7.5_n30__coco_2.jpg,25.65
+sampler,DDIM,coco_3,coco,Person on tennis court preparing to return a volley,45,ddim,linspace,7.5,30,4.76,False,False,images/ddim_linspace_w7.5_n30__coco_3.jpg,25.43
+sampler,DDIM,coco_4,coco,A man standing next to a horse in the woods,46,ddim,linspace,7.5,30,4.76,False,False,images/ddim_linspace_w7.5_n30__coco_4.jpg,31.41
+sampler,DDIM,hw_0,handwritten,A brown dog running through a grassy field in sunlight.,2027,ddim,linspace,7.5,30,4.77,False,False,images/ddim_linspace_w7.5_n30__hw_0.jpg,26.13
+sampler,DDIM,hw_1,handwritten,Two people riding bicycles along a city street.,2028,ddim,linspace,7.5,30,4.78,False,False,images/ddim_linspace_w7.5_n30__hw_1.jpg,27.24
+sampler,DDIM,hw_2,handwritten,A red bus traveling down a road on a cloudy day.,2029,ddim,linspace,7.5,30,4.77,False,False,images/ddim_linspace_w7.5_n30__hw_2.jpg,29.15
+sampler,DDIM,hw_3,handwritten,A plate of fresh fruit on a wooden kitchen table.,2030,ddim,linspace,7.5,30,4.78,False,False,images/ddim_linspace_w7.5_n30__hw_3.jpg,24.85
+sampler,DDIM,hw_4,handwritten,A small boat floating on a calm lake near mountains.,2031,ddim,linspace,7.5,30,4.79,False,False,images/ddim_linspace_w7.5_n30__hw_4.jpg,26.97
+sampler,PNDM,coco_0,coco,Looks like the ingredients for a recipe including bananas,42,pndm,linspace,7.5,30,4.91,False,False,images/pndm_linspace_w7.5_n30__coco_0.jpg,27.16
+sampler,PNDM,coco_1,coco,The man is holding an object in his hand,43,pndm,linspace,7.5,30,4.91,False,False,images/pndm_linspace_w7.5_n30__coco_1.jpg,20.06
+sampler,PNDM,coco_2,coco,A glass vase with some flowers inside of it,44,pndm,linspace,7.5,30,4.91,False,False,images/pndm_linspace_w7.5_n30__coco_2.jpg,24.28
+sampler,PNDM,coco_3,coco,Person on tennis court preparing to return a volley,45,pndm,linspace,7.5,30,4.92,False,False,images/pndm_linspace_w7.5_n30__coco_3.jpg,27.04
+sampler,PNDM,coco_4,coco,A man standing next to a horse in the woods,46,pndm,linspace,7.5,30,4.92,False,False,images/pndm_linspace_w7.5_n30__coco_4.jpg,30.26
+sampler,PNDM,hw_0,handwritten,A brown dog running through a grassy field in sunlight.,2027,pndm,linspace,7.5,30,4.9,False,False,images/pndm_linspace_w7.5_n30__hw_0.jpg,25.5
+sampler,PNDM,hw_1,handwritten,Two people riding bicycles along a city street.,2028,pndm,linspace,7.5,30,4.91,False,False,images/pndm_linspace_w7.5_n30__hw_1.jpg,26.37
+sampler,PNDM,hw_2,handwritten,A red bus traveling down a road on a cloudy day.,2029,pndm,linspace,7.5,30,4.89,False,False,images/pndm_linspace_w7.5_n30__hw_2.jpg,27.9
+sampler,PNDM,hw_3,handwritten,A plate of fresh fruit on a wooden kitchen table.,2030,pndm,linspace,7.5,30,4.89,False,False,images/pndm_linspace_w7.5_n30__hw_3.jpg,25.67
+sampler,PNDM,hw_4,handwritten,A small boat floating on a calm lake near mountains.,2031,pndm,linspace,7.5,30,4.91,False,False,images/pndm_linspace_w7.5_n30__hw_4.jpg,27.49
+sampler,DPM++,coco_0,coco,Looks like the ingredients for a recipe including bananas,42,dpm++,linspace,7.5,30,4.43,True,False,images/dpm++_linspace_w7.5_n30__coco_0.jpg,27.67
+sampler,DPM++,coco_1,coco,The man is holding an object in his hand,43,dpm++,linspace,7.5,30,4.47,True,False,images/dpm++_linspace_w7.5_n30__coco_1.jpg,20.24
+sampler,DPM++,coco_2,coco,A glass vase with some flowers inside of it,44,dpm++,linspace,7.5,30,4.48,True,False,images/dpm++_linspace_w7.5_n30__coco_2.jpg,23.79
+sampler,DPM++,coco_3,coco,Person on tennis court preparing to return a volley,45,dpm++,linspace,7.5,30,4.51,True,False,images/dpm++_linspace_w7.5_n30__coco_3.jpg,27.0
+sampler,DPM++,coco_4,coco,A man standing next to a horse in the woods,46,dpm++,linspace,7.5,30,4.55,True,False,images/dpm++_linspace_w7.5_n30__coco_4.jpg,29.69
+sampler,DPM++,hw_0,handwritten,A brown dog running through a grassy field in sunlight.,2027,dpm++,linspace,7.5,30,4.58,True,False,images/dpm++_linspace_w7.5_n30__hw_0.jpg,26.25
+sampler,DPM++,hw_1,handwritten,Two people riding bicycles along a city street.,2028,dpm++,linspace,7.5,30,4.61,True,False,images/dpm++_linspace_w7.5_n30__hw_1.jpg,26.93
+sampler,DPM++,hw_2,handwritten,A red bus traveling down a road on a cloudy day.,2029,dpm++,linspace,7.5,30,4.65,True,False,images/dpm++_linspace_w7.5_n30__hw_2.jpg,28.31
+sampler,DPM++,hw_3,handwritten,A plate of fresh fruit on a wooden kitchen table.,2030,dpm++,linspace,7.5,30,4.68,True,False,images/dpm++_linspace_w7.5_n30__hw_3.jpg,26.18
+sampler,DPM++,hw_4,handwritten,A small boat floating on a calm lake near mountains.,2031,dpm++,linspace,7.5,30,4.7,True,False,images/dpm++_linspace_w7.5_n30__hw_4.jpg,27.31
+spacing,leading,coco_0,coco,Looks like the ingredients for a recipe including bananas,42,dpm++,leading,7.5,30,4.72,False,False,images/dpm++_leading_w7.5_n30__coco_0.jpg,26.69
+spacing,leading,coco_1,coco,The man is holding an object in his hand,43,dpm++,leading,7.5,30,4.74,False,False,images/dpm++_leading_w7.5_n30__coco_1.jpg,17.9
+spacing,leading,coco_2,coco,A glass vase with some flowers inside of it,44,dpm++,leading,7.5,30,4.74,False,False,images/dpm++_leading_w7.5_n30__coco_2.jpg,24.54
+spacing,leading,coco_3,coco,Person on tennis court preparing to return a volley,45,dpm++,leading,7.5,30,4.73,False,False,images/dpm++_leading_w7.5_n30__coco_3.jpg,25.8
+spacing,leading,coco_4,coco,A man standing next to a horse in the woods,46,dpm++,leading,7.5,30,4.74,False,False,images/dpm++_leading_w7.5_n30__coco_4.jpg,30.14
+spacing,leading,hw_0,handwritten,A brown dog running through a grassy field in sunlight.,2027,dpm++,leading,7.5,30,4.73,False,False,images/dpm++_leading_w7.5_n30__hw_0.jpg,26.15
+spacing,leading,hw_1,handwritten,Two people riding bicycles along a city street.,2028,dpm++,leading,7.5,30,4.73,False,False,images/dpm++_leading_w7.5_n30__hw_1.jpg,27.18
+spacing,leading,hw_2,handwritten,A red bus traveling down a road on a cloudy day.,2029,dpm++,leading,7.5,30,4.72,False,False,images/dpm++_leading_w7.5_n30__hw_2.jpg,28.74
+spacing,leading,hw_3,handwritten,A plate of fresh fruit on a wooden kitchen table.,2030,dpm++,leading,7.5,30,4.73,False,False,images/dpm++_leading_w7.5_n30__hw_3.jpg,25.59
+spacing,leading,hw_4,handwritten,A small boat floating on a calm lake near mountains.,2031,dpm++,leading,7.5,30,4.74,False,False,images/dpm++_leading_w7.5_n30__hw_4.jpg,26.2
+spacing,linspace,coco_0,coco,Looks like the ingredients for a recipe including bananas,42,dpm++,linspace,7.5,30,4.43,True,False,images/dpm++_linspace_w7.5_n30__coco_0.jpg,27.67
+spacing,linspace,coco_1,coco,The man is holding an object in his hand,43,dpm++,linspace,7.5,30,4.47,True,False,images/dpm++_linspace_w7.5_n30__coco_1.jpg,20.24
+spacing,linspace,coco_2,coco,A glass vase with some flowers inside of it,44,dpm++,linspace,7.5,30,4.48,True,False,images/dpm++_linspace_w7.5_n30__coco_2.jpg,23.79
+spacing,linspace,coco_3,coco,Person on tennis court preparing to return a volley,45,dpm++,linspace,7.5,30,4.51,True,False,images/dpm++_linspace_w7.5_n30__coco_3.jpg,27.0
+spacing,linspace,coco_4,coco,A man standing next to a horse in the woods,46,dpm++,linspace,7.5,30,4.55,True,False,images/dpm++_linspace_w7.5_n30__coco_4.jpg,29.69
+spacing,linspace,hw_0,handwritten,A brown dog running through a grassy field in sunlight.,2027,dpm++,linspace,7.5,30,4.58,True,False,images/dpm++_linspace_w7.5_n30__hw_0.jpg,26.25
+spacing,linspace,hw_1,handwritten,Two people riding bicycles along a city street.,2028,dpm++,linspace,7.5,30,4.61,True,False,images/dpm++_linspace_w7.5_n30__hw_1.jpg,26.93
+spacing,linspace,hw_2,handwritten,A red bus traveling down a road on a cloudy day.,2029,dpm++,linspace,7.5,30,4.65,True,False,images/dpm++_linspace_w7.5_n30__hw_2.jpg,28.31
+spacing,linspace,hw_3,handwritten,A plate of fresh fruit on a wooden kitchen table.,2030,dpm++,linspace,7.5,30,4.68,True,False,images/dpm++_linspace_w7.5_n30__hw_3.jpg,26.18
+spacing,linspace,hw_4,handwritten,A small boat floating on a calm lake near mountains.,2031,dpm++,linspace,7.5,30,4.7,True,False,images/dpm++_linspace_w7.5_n30__hw_4.jpg,27.31
+spacing,trailing,coco_0,coco,Looks like the ingredients for a recipe including bananas,42,dpm++,trailing,7.5,30,4.74,False,False,images/dpm++_trailing_w7.5_n30__coco_0.jpg,27.78
+spacing,trailing,coco_1,coco,The man is holding an object in his hand,43,dpm++,trailing,7.5,30,4.73,False,False,images/dpm++_trailing_w7.5_n30__coco_1.jpg,20.04
+spacing,trailing,coco_2,coco,A glass vase with some flowers inside of it,44,dpm++,trailing,7.5,30,4.74,False,False,images/dpm++_trailing_w7.5_n30__coco_2.jpg,23.71
+spacing,trailing,coco_3,coco,Person on tennis court preparing to return a volley,45,dpm++,trailing,7.5,30,4.73,False,False,images/dpm++_trailing_w7.5_n30__coco_3.jpg,26.99
+spacing,trailing,coco_4,coco,A man standing next to a horse in the woods,46,dpm++,trailing,7.5,30,4.74,False,False,images/dpm++_trailing_w7.5_n30__coco_4.jpg,29.84
+spacing,trailing,hw_0,handwritten,A brown dog running through a grassy field in sunlight.,2027,dpm++,trailing,7.5,30,4.74,False,False,images/dpm++_trailing_w7.5_n30__hw_0.jpg,26.31
+spacing,trailing,hw_1,handwritten,Two people riding bicycles along a city street.,2028,dpm++,trailing,7.5,30,4.74,False,False,images/dpm++_trailing_w7.5_n30__hw_1.jpg,27.05
+spacing,trailing,hw_2,handwritten,A red bus traveling down a road on a cloudy day.,2029,dpm++,trailing,7.5,30,4.72,False,False,images/dpm++_trailing_w7.5_n30__hw_2.jpg,28.74
+spacing,trailing,hw_3,handwritten,A plate of fresh fruit on a wooden kitchen table.,2030,dpm++,trailing,7.5,30,4.73,False,False,images/dpm++_trailing_w7.5_n30__hw_3.jpg,26.12
+spacing,trailing,hw_4,handwritten,A small boat floating on a calm lake near mountains.,2031,dpm++,trailing,7.5,30,4.74,False,False,images/dpm++_trailing_w7.5_n30__hw_4.jpg,27.23
+steps,10 steps,coco_0,coco,Looks like the ingredients for a recipe including bananas,42,dpm++,linspace,7.5,10,1.73,False,False,images/dpm++_linspace_w7.5_n10__coco_0.jpg,26.17
+steps,10 steps,coco_1,coco,The man is holding an object in his hand,43,dpm++,linspace,7.5,10,1.73,False,False,images/dpm++_linspace_w7.5_n10__coco_1.jpg,17.78
+steps,10 steps,coco_2,coco,A glass vase with some flowers inside of it,44,dpm++,linspace,7.5,10,1.75,False,False,images/dpm++_linspace_w7.5_n10__coco_2.jpg,24.24
+steps,10 steps,coco_3,coco,Person on tennis court preparing to return a volley,45,dpm++,linspace,7.5,10,1.75,False,False,images/dpm++_linspace_w7.5_n10__coco_3.jpg,25.67
+steps,10 steps,coco_4,coco,A man standing next to a horse in the woods,46,dpm++,linspace,7.5,10,1.76,False,False,images/dpm++_linspace_w7.5_n10__coco_4.jpg,28.94
+steps,10 steps,hw_0,handwritten,A brown dog running through a grassy field in sunlight.,2027,dpm++,linspace,7.5,10,1.73,False,False,images/dpm++_linspace_w7.5_n10__hw_0.jpg,28.38
+steps,10 steps,hw_1,handwritten,Two people riding bicycles along a city street.,2028,dpm++,linspace,7.5,10,1.73,False,False,images/dpm++_linspace_w7.5_n10__hw_1.jpg,28.25
+steps,10 steps,hw_2,handwritten,A red bus traveling down a road on a cloudy day.,2029,dpm++,linspace,7.5,10,1.73,False,False,images/dpm++_linspace_w7.5_n10__hw_2.jpg,28.24
+steps,10 steps,hw_3,handwritten,A plate of fresh fruit on a wooden kitchen table.,2030,dpm++,linspace,7.5,10,1.73,False,False,images/dpm++_linspace_w7.5_n10__hw_3.jpg,25.48
+steps,10 steps,hw_4,handwritten,A small boat floating on a calm lake near mountains.,2031,dpm++,linspace,7.5,10,1.74,False,False,images/dpm++_linspace_w7.5_n10__hw_4.jpg,26.96
+steps,25 steps,coco_0,coco,Looks like the ingredients for a recipe including bananas,42,dpm++,linspace,7.5,25,3.98,False,False,images/dpm++_linspace_w7.5_n25__coco_0.jpg,27.67
+steps,25 steps,coco_1,coco,The man is holding an object in his hand,43,dpm++,linspace,7.5,25,3.98,False,False,images/dpm++_linspace_w7.5_n25__coco_1.jpg,18.59
+steps,25 steps,coco_2,coco,A glass vase with some flowers inside of it,44,dpm++,linspace,7.5,25,3.98,False,False,images/dpm++_linspace_w7.5_n25__coco_2.jpg,23.51
+steps,25 steps,coco_3,coco,Person on tennis court preparing to return a volley,45,dpm++,linspace,7.5,25,3.98,False,False,images/dpm++_linspace_w7.5_n25__coco_3.jpg,26.23
+steps,25 steps,coco_4,coco,A man standing next to a horse in the woods,46,dpm++,linspace,7.5,25,3.98,False,False,images/dpm++_linspace_w7.5_n25__coco_4.jpg,29.7
+steps,25 steps,hw_0,handwritten,A brown dog running through a grassy field in sunlight.,2027,dpm++,linspace,7.5,25,3.98,False,False,images/dpm++_linspace_w7.5_n25__hw_0.jpg,26.18
+steps,25 steps,hw_1,handwritten,Two people riding bicycles along a city street.,2028,dpm++,linspace,7.5,25,3.99,False,False,images/dpm++_linspace_w7.5_n25__hw_1.jpg,27.38
+steps,25 steps,hw_2,handwritten,A red bus traveling down a road on a cloudy day.,2029,dpm++,linspace,7.5,25,3.99,False,False,images/dpm++_linspace_w7.5_n25__hw_2.jpg,28.16
+steps,25 steps,hw_3,handwritten,A plate of fresh fruit on a wooden kitchen table.,2030,dpm++,linspace,7.5,25,3.98,False,False,images/dpm++_linspace_w7.5_n25__hw_3.jpg,25.64
+steps,25 steps,hw_4,handwritten,A small boat floating on a calm lake near mountains.,2031,dpm++,linspace,7.5,25,3.99,False,False,images/dpm++_linspace_w7.5_n25__hw_4.jpg,27.25
+steps,30 steps,coco_0,coco,Looks like the ingredients for a recipe including bananas,42,dpm++,linspace,7.5,30,4.43,True,False,images/dpm++_linspace_w7.5_n30__coco_0.jpg,27.67
+steps,30 steps,coco_1,coco,The man is holding an object in his hand,43,dpm++,linspace,7.5,30,4.47,True,False,images/dpm++_linspace_w7.5_n30__coco_1.jpg,20.24
+steps,30 steps,coco_2,coco,A glass vase with some flowers inside of it,44,dpm++,linspace,7.5,30,4.48,True,False,images/dpm++_linspace_w7.5_n30__coco_2.jpg,23.79
+steps,30 steps,coco_3,coco,Person on tennis court preparing to return a volley,45,dpm++,linspace,7.5,30,4.51,True,False,images/dpm++_linspace_w7.5_n30__coco_3.jpg,27.0
+steps,30 steps,coco_4,coco,A man standing next to a horse in the woods,46,dpm++,linspace,7.5,30,4.55,True,False,images/dpm++_linspace_w7.5_n30__coco_4.jpg,29.69
+steps,30 steps,hw_0,handwritten,A brown dog running through a grassy field in sunlight.,2027,dpm++,linspace,7.5,30,4.58,True,False,images/dpm++_linspace_w7.5_n30__hw_0.jpg,26.25
+steps,30 steps,hw_1,handwritten,Two people riding bicycles along a city street.,2028,dpm++,linspace,7.5,30,4.61,True,False,images/dpm++_linspace_w7.5_n30__hw_1.jpg,26.93
+steps,30 steps,hw_2,handwritten,A red bus traveling down a road on a cloudy day.,2029,dpm++,linspace,7.5,30,4.65,True,False,images/dpm++_linspace_w7.5_n30__hw_2.jpg,28.31
+steps,30 steps,hw_3,handwritten,A plate of fresh fruit on a wooden kitchen table.,2030,dpm++,linspace,7.5,30,4.68,True,False,images/dpm++_linspace_w7.5_n30__hw_3.jpg,26.18
+steps,30 steps,hw_4,handwritten,A small boat floating on a calm lake near mountains.,2031,dpm++,linspace,7.5,30,4.7,True,False,images/dpm++_linspace_w7.5_n30__hw_4.jpg,27.31
+steps,50 steps,coco_0,coco,Looks like the ingredients for a recipe including bananas,42,dpm++,linspace,7.5,50,7.75,False,False,images/dpm++_linspace_w7.5_n50__coco_0.jpg,26.43
+steps,50 steps,coco_1,coco,The man is holding an object in his hand,43,dpm++,linspace,7.5,50,7.73,False,False,images/dpm++_linspace_w7.5_n50__coco_1.jpg,19.74
+steps,50 steps,coco_2,coco,A glass vase with some flowers inside of it,44,dpm++,linspace,7.5,50,7.74,False,False,images/dpm++_linspace_w7.5_n50__coco_2.jpg,23.43
+steps,50 steps,coco_3,coco,Person on tennis court preparing to return a volley,45,dpm++,linspace,7.5,50,7.73,False,False,images/dpm++_linspace_w7.5_n50__coco_3.jpg,26.3
+steps,50 steps,coco_4,coco,A man standing next to a horse in the woods,46,dpm++,linspace,7.5,50,7.73,False,False,images/dpm++_linspace_w7.5_n50__coco_4.jpg,29.49
+steps,50 steps,hw_0,handwritten,A brown dog running through a grassy field in sunlight.,2027,dpm++,linspace,7.5,50,7.73,False,False,images/dpm++_linspace_w7.5_n50__hw_0.jpg,26.46
+steps,50 steps,hw_1,handwritten,Two people riding bicycles along a city street.,2028,dpm++,linspace,7.5,50,7.72,False,False,images/dpm++_linspace_w7.5_n50__hw_1.jpg,26.93
+steps,50 steps,hw_2,handwritten,A red bus traveling down a road on a cloudy day.,2029,dpm++,linspace,7.5,50,7.73,False,False,images/dpm++_linspace_w7.5_n50__hw_2.jpg,28.41
+steps,50 steps,hw_3,handwritten,A plate of fresh fruit on a wooden kitchen table.,2030,dpm++,linspace,7.5,50,7.72,False,False,images/dpm++_linspace_w7.5_n50__hw_3.jpg,26.08
+steps,50 steps,hw_4,handwritten,A small boat floating on a calm lake near mountains.,2031,dpm++,linspace,7.5,50,7.74,False,False,images/dpm++_linspace_w7.5_n50__hw_4.jpg,27.35
